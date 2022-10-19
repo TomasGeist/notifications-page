@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+body{
+  margin: auto;
+  width: 375px;
+}
+
+* p{
+ color: hsl(219, 12%, 42%)
+}
+
+* b {
+color: black;
+}
+
+* b:hover{
+  color:hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header p {
+  color: grey;
+}
+
+.mark:hover{
+  color:hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.container-izq {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.num-not {
+  display: flex;
+  border: thin solid black;
+  width: 1.5rem;
+  border-radius: 0.3rem;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  background-color: hsl(219, 85%, 26%);
+  margin-left: 0.5rem;
+}
+
+.sc-1 {
+  margin: auto;
+  width: 95%;
+}
+
+.not1,
+.not2,
+.not3,
+.not4,
+.not5,
+.not6,
+.not7 {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.not1 span {
+  font-weight: 800;
+}
+.not6 span {
+  font-weight: 800;
+}
+
+.not7 span{
+ font-weight: 800;
+ color:black
+}
+
+.not3 span{
+  font-weight: 800;
+ color:black
+}
+
+.not7 span:hover {
+  color:hsl(219, 85%, 26%);
+  cursor: pointer;
+
+}
+.not3 span:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.time {
+  margin-top: .2rem;
+  color: hsl(219, 14%, 63%);
+
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-1 img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.8rem;
+}
+
+.not4-int {
+  border: thin solid hsl(205, 33%, 90%);
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.not4-int:hover{
+    background-color:hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+
+.not-read {
+  background-color: hsl(211, 68%, 94%);
+}
+
+.read {
+  background-color: white;
+}
+
+.pelotita{
+  width: .5rem;
+  height: .5rem;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 21rem;
+}
